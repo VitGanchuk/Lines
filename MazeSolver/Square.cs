@@ -30,13 +30,10 @@ namespace MazeSolver {
                     case SquareMode.Finish:
                         BackColor = Color.LimeGreen;
                         break;
-                    case SquareMode.Current:
-                        BackColor = Color.SkyBlue;
-                        break;
                     case SquareMode.Path:
                         BackColor = Color.LightBlue;
                         break;
-                    case SquareMode.DeadEnd:
+                    case SquareMode.Frontier:
                         BackColor = Color.Tomato;
                         break;
                     case SquareMode.Obstacle:
@@ -62,18 +59,19 @@ namespace MazeSolver {
             }
         }
 
+        private bool _isVisited;
+        public bool IsVisited {
+            get { return Mode == SquareMode.Obstacle ? true : _isVisited; }
+            set { _isVisited = value; }
+        }
+
         public int Row { get; set; }
 
         public int Column { get; set; }
 
-        public bool IsEmpty { get { return Mode == SquareMode.Empty; } }
-
-        public bool IsDeadEnd { get { return Mode == SquareMode.DeadEnd; } }
-
-        public bool IsFinish { get { return Mode == SquareMode.Finish; } }
-
         public Square() {
-            InitializeComponent();           
+            InitializeComponent();
+            IsVisited = false;         
             Height = _SIZE;
             Width = Height;
             Mode = SquareMode.Empty;
@@ -111,5 +109,5 @@ namespace MazeSolver {
         }
     }
 
-    public enum SquareMode { Empty, Current, Path, Start, Finish, DeadEnd, Visited, Obstacle }
+    public enum SquareMode { Empty, Current, Path, Start, Finish, Frontier, Visited, Obstacle }
 }
