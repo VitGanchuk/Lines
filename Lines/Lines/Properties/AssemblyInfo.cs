@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Lines")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Inuktun")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Lines")]
-[assembly: AssemblyCopyright("Copyright © Inuktun 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1b0bf450-962d-4541-9354-b15ac75bd82c")]
+[assembly: Guid("1d59808b-5cc2-4263-8fab-c7ac3c974f56")]
 
 // Version information for an assembly consists of the following four values:
 //
