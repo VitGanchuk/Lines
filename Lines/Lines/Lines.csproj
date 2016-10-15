@@ -91,8 +91,10 @@
     <None Include="Resources\Lines_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Icon.ico" />
     <Content Include="Resources\Lines_aqua.png" />
     <Content Include="Resources\Lines_blue.png" />
+    <Content Include="Resources\Lines_colors.jpg" />
     <Content Include="Resources\Lines_green.png" />
     <Content Include="Resources\Lines_grey.png" />
     <Content Include="Resources\Lines_lightBlue.png" />
