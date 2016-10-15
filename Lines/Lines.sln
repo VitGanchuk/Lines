@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lines", "Lines\Lines.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver", "MazeSolver\MazeSolver\MazeSolver.csproj", "{F604778C-F82F-418F-8B80-534C4A570CA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncGUI", "AsyncGUI\AsyncGUI\AsyncGUI.csproj", "{9EE936F9-58E7-4688-AAEC-C0E62F25BFCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F604778C-F82F-418F-8B80-534C4A570CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F604778C-F82F-418F-8B80-534C4A570CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F604778C-F82F-418F-8B80-534C4A570CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE936F9-58E7-4688-AAEC-C0E62F25BFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE936F9-58E7-4688-AAEC-C0E62F25BFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE936F9-58E7-4688-AAEC-C0E62F25BFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE936F9-58E7-4688-AAEC-C0E62F25BFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
